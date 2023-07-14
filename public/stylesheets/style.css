@@ -4,8 +4,8 @@ body {
 }
 
 .banner {
-  padding-left: 6%;
-  max-width: 40%;
+  padding-left: 4%;
+  max-width: 36%;
   max-height: 30%;
 }
 
@@ -24,4 +24,16 @@ body {
   margin: 1% 4% 3% 4%;
   max-width: 18%;
   max-height: 10%;
+}
+
+.items:hover {
+  opacity: 20%;
+  border: solid;
+  border-color: darkgreen
+}
+
+.items:active {
+  opacity: 80%;
+  border: dash;
+  border-color: darkgray;
 }

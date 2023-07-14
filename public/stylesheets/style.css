@@ -1,0 +1,14 @@
+body {
+  background-color: silver;
+}
+img {
+  display: flex;
+  max-width: 40%;
+  max-height: 10%;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin: 10%;
+}

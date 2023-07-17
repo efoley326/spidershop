@@ -29,7 +29,8 @@ body {
 .items:hover {
   opacity: 20%;
   border: solid;
-  border-color: darkgreen
+  border-color: darkgreen;
+  cursor: pointer;
 }
 
 .items:active {

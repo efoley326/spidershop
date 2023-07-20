@@ -4,5 +4,5 @@ require 'sinatra'
 Tilt.register Tilt::ERBTemplate, 'html'
 
 get '/' do
-  erb :index
+  erb :spidershop
 end

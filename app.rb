@@ -1,7 +1,8 @@
 # myapp.rb
 require 'sinatra'
 
+Tilt.register Tilt::ERBTemplate, 'html.erb'
 
 get '/' do
-  erb :layout
+  erb :index
 end

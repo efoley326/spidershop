@@ -4,7 +4,7 @@ Tilt.register Tilt::ERBTemplate, 'html'
 
 configure do
   set :views, [ '.' ]
-  set :public_folder, './public/'
+  set :static, false
 end
 
 get '/' do

@@ -7,5 +7,5 @@ configure do
 end
 
 get '/' do
-  erb :spidershop
+  erb :index
 end
